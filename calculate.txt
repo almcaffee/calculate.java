@@ -1,24 +1,14 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package math;
 
 import static java.lang.Double.parseDouble;
 import java.math.BigDecimal;
 import java.util.*;
 
-
 /**
- *
- * @author dev9
+ * @author Ollie Tinsley
  */
 public class Calculate extends javax.swing.JFrame {
 
-    /**
-     * Creates new form Calculate
-     */
     public Calculate() {
         this.tabulate = new mathPad();
         initComponents();
@@ -375,105 +365,105 @@ public class Calculate extends javax.swing.JFrame {
     }// </editor-fold>                        
 
     private void nineActionPerformed(java.awt.event.ActionEvent evt) {                                     
-        // TODO add your handling code here:
+ 
         tabulate.setData("9");
     }                                    
                              
     private void oneActionPerformed(java.awt.event.ActionEvent evt) {                                    
-        // TODO add your handling code here:
+		
         tabulate.setData("1");
     }                                   
 
     private void commitVarActionPerformed(java.awt.event.ActionEvent evt) {                                          
-        // TODO add your handling code here:
+ 
         tabulate.calculate();
     }                                         
 
     private void clearActionPerformed(java.awt.event.ActionEvent evt) {                                      
-        // TODO add your handling code here:
+ 
         tabulate.clear();
     }                                     
 
     private void addVarActionPerformed(java.awt.event.ActionEvent evt) {                                       
-        // TODO add your handling code here:
+ 
         String thisChar = "+";
         char oper = thisChar.charAt(0);
         tabulate.setOperator(oper);
     }                                      
 
     private void fourActionPerformed(java.awt.event.ActionEvent evt) {                                     
-        // TODO add your handling code here:
+ 
         tabulate.setData("4");
     }                                    
 
     private void sevenActionPerformed(java.awt.event.ActionEvent evt) {                                      
-        // TODO add your handling code here:
+ 
         tabulate.setData("7");
     }                                     
 
     private void eightActionPerformed(java.awt.event.ActionEvent evt) {                                      
-        // TODO add your handling code here:
+ 
         tabulate.setData("8");
     }                                     
 
     private void fiveActionPerformed(java.awt.event.ActionEvent evt) {                                     
-        // TODO add your handling code here:
+ 
         tabulate.setData("5");
     }                                    
 
     private void zeroActionPerformed(java.awt.event.ActionEvent evt) {                                     
-        // TODO add your handling code here:
+ 
         tabulate.setData("0");
     }                                    
 
     private void twoActionPerformed(java.awt.event.ActionEvent evt) {                                    
-        // TODO add your handling code here:
+ 
         tabulate.setData("2");
     }                                   
 
     private void threeActionPerformed(java.awt.event.ActionEvent evt) {                                      
-        // TODO add your handling code here:
+ 
         tabulate.setData("3");
     }                                     
 
     private void sixActionPerformed(java.awt.event.ActionEvent evt) {                                    
-        // TODO add your handling code here:
+ 
         tabulate.setData("6");
     }                                   
 
     private void minusVarActionPerformed(java.awt.event.ActionEvent evt) {                                         
-        // TODO add your handling code here:
+ 
         String thisChar = "-";
         char oper = thisChar.charAt(0);
         tabulate.setOperator(oper);
     }                                        
 
     private void multiplyVarActionPerformed(java.awt.event.ActionEvent evt) {                                            
-        // TODO add your handling code here:
+ 
         String thisChar = "*";
         char oper = thisChar.charAt(0);
         tabulate.setOperator(oper);
     }                                           
 
     private void divideActionPerformed(java.awt.event.ActionEvent evt) {                                       
-        // TODO add your handling code here:
+ 
         String thisChar = "/";
         char oper = thisChar.charAt(0);
         tabulate.setOperator(oper);
     }                                      
 
     private void decimalActionPerformed(java.awt.event.ActionEvent evt) {                                        
-        // TODO add your handling code here:
+ 
         tabulate.setDecimal();
     }                                       
 
     private void plusMinusActionPerformed(java.awt.event.ActionEvent evt) {                                          
-        // TODO add your handling code here:
+ 
         tabulate.absVal();
     }                                         
 
     private void deleteVarActionPerformed(java.awt.event.ActionEvent evt) {                                          
-        // TODO add your handling code here:
+ 
         tabulate.delete();
     }                                         
 
