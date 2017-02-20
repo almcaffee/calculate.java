@@ -1,2 +1,2 @@
 # calculate.java
-Simple calculator created with Netbeans
+Simple java calculator created with Netbeans GUI
